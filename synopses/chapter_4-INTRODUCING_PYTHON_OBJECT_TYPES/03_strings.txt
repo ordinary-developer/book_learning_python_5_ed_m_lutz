@@ -43,3 +43,51 @@
  Numbers, strings and tuples are immutable.
  Lists, dictionaries, and sets are not.
   
+
+ type-specific methods
+ =====================
+
+ - find(str)
+        retunrs the offset of the passed-in substring
+        or (-1) if it is not present
+ 
+ - replace(replaceble_str, new_str)
+        performs global searches and replacments
+
+ - split(delimiter)
+        splits a string into substrings on a delimiter      
+
+ - upper()
+        converts to upper case
+
+ - isalpha()
+        tests whether a string is a letter
+ 
+ - isdigit()
+        tests whether the string is a digit
+
+ - rstrip()
+        strips whitespace characters off the end of the string
+
+
+ getting help
+ ============
+
+ - dir(s) 
+        returns a list of all the attributes 
+        available for any object passed to it
+
+ - help(s.replace)
+        returns the description of the method
+
+ Both "dir" and "help" also accept as arguments either a real object,
+ or the name of a data type (like "str", "list", and "dict")
+   
+
+ other ways to code strings
+ ==========================
+
+ Python allows strings to be enclosed in single or double quote characters -
+ they mean the same but allow the other type of quote to be embedded with an escape.
+
+ Python also allows multiline string literals enclosed in triple quotes (single or double)
