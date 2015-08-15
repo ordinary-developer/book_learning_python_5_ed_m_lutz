@@ -1,0 +1,45 @@
+ #######
+ strings
+ #######
+
+ strings
+ =======
+
+ Strings are used to record both textual information as well
+ as arbitrary collections of bytes.
+
+ 
+ sequence operations
+ ===================
+
+ As sequences, strings suppport operations that ussume a positional
+ ordering amount items.
+
+ - len(s) -> gets the length of the string
+
+ - s[i]   -> indexing expression
+   Positive indexes count from the left
+   Negative indexes count back from the right
+
+ - s[i:j] -> extracts an entire section (slice) in a single step
+   s[1:]  - Everyting past the first (1:len(s))
+   s      - s itself hasn't changed
+   s[0:3] - everyting but the last
+   s[:3]  - same as s[0:3]
+   s[:-1] - Everything but the last again, but simpler (0:-1)
+   s[:]   - All of s as a top-level copy (0:len(s)  
+            (first index inlusive, second not)
+
+ - +     -> concatenation
+ - *     -> repetion
+
+
+ immutability
+ ============
+
+ Strings are immutable in Python - they cannot be changed in place
+ after they are created.
+
+ Numbers, strings and tuples are immutable.
+ Lists, dictionaries, and sets are not.
+  
