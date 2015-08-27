@@ -1,0 +1,17 @@
+ ############
+ dictionaries
+ ############
+
+ Dictionaries in Python are not sequences at all,
+ but are instead known as mappings.
+ 
+ Mappings store objects by key.
+
+ Dictionaries are mutable.
+ 
+ Assignments to new dictionary keys create those keys.
+
+ We can make dictionaries by passing to the "dict" type name
+ either keyword arguments (a special name=value syntax in function calls),
+ or the result of zipping together sequences of keys and values 
+ obtained at runtime.
