@@ -15,3 +15,22 @@
  either keyword arguments (a special name=value syntax in function calls),
  or the result of zipping together sequences of keys and values 
  obtained at runtime.
+
+
+ missing keys: if tests
+ ======================
+
+ the dictionary "in" membership expression allows us
+ to query the existence of a key.
+ 
+ There are other ways to avoid accessing nonexistent keys in a dictionary
+ - the "get" method, a conditional index with a default;
+ - the "if/else" ternary expression
+
+
+ sorting keys: for loops
+ =======================
+
+ We can get the keys of a dictionary in a sorted order
+ by using the "sorted" function.
+ The parameter must be your dictionary.
