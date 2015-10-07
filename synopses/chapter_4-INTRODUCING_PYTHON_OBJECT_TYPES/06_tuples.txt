@@ -5,12 +5,15 @@
  Tuples
  ======
 
- Tuples are sequences, like lists, but they are immutable, like strings.
+ Tuples are sequences, like lists, but they are immutable, 
+ like strings.
 
- Functionlally, they are used to represent fixed collections of items.
+ Functionlally, they are used to represent
+ fixed collections of items.
 
  They are coded in parentheses, and they support 
- arbitrary types, arbirtrary nesting, and the usual sequence operations
+ arbitrary types, arbirtrary nesting,
+ and the usual sequence operations
  
  methods 
  

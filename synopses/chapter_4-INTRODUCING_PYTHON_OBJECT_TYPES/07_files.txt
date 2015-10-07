@@ -9,7 +9,8 @@
  on your computer.
 
  To create a file object, you call the built-in "open" function, 
- passing in an external filename and an optional processing mode as strings.
+ passing in an external filename and an optional processing mode
+ as strings.
 
  methods
  =======

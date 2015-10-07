@@ -12,7 +12,8 @@
  Assignments to new dictionary keys create those keys.
 
  We can make dictionaries by passing to the "dict" type name
- either keyword arguments (a special name=value syntax in function calls),
+ either keyword arguments 
+(a special name=value syntax in function calls),
  or the result of zipping together sequences of keys and values 
  obtained at runtime.
 
@@ -23,7 +24,8 @@
  the dictionary "in" membership expression allows us
  to query the existence of a key.
  
- There are other ways to avoid accessing nonexistent keys in a dictionary
+ There are other ways to avoid accessing nonexistent keys
+ in a dictionary
  - the "get" method, a conditional index with a default;
  - the "if/else" ternary expression
 
@@ -39,13 +41,15 @@
  Iteration and Optimization
  ==========================
 
- An object is iterable if it is either a physically stored sequence in memory,
- or an object that generates one item at a time 
- in the context of an iteration operation - a sort of "virtual" sequence.
+ An object is iterable if it is either 
+ a physically stored sequence in memory, or an object 
+ that generates one item at a time  in the context
+ of an iteration operation - a sort of "virtual" sequence.
 
  More formally, both types of objects are considered iterable 
- because they support the iteration protocol - they respond to the "iter" call
- with an object that advances in response to "next" calls 
+ because they support the iteration protocol -
+ they respond to the "iter" call with an object 
+ that advances in response to "next" calls 
  and raises an exception when finished producing values.
 
  

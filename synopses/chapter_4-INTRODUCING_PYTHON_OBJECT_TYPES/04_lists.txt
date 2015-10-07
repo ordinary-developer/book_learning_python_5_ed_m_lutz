@@ -5,8 +5,8 @@
  Lists
  =====
 
- Lists are positionally ordered collections of arbitrarily typed objects,
- and they have no fixed size.
+ Lists are positionally ordered collections 
+ of arbitrarily typed objects, and they have no fixed size.
  They are also mutable.
 
 
@@ -44,14 +44,15 @@
  - reverse()
         reverses the list
 
- Because lists are mutable, most lists methods also change the list object in place,
- instead of creating a new one.
+ Because lists are mutable, most lists methods also change 
+ the list object in place, instead of creating a new one.
 
  Indexing off the end of a list is always a mistake, 
  but so is assingning off the end
 
  Python's core data types support arbitrary nesting.
- We can a have a lists that contains a dictionary, which contains another list, and so on.
+ We can a have a lists that contains a dictionary, 
+ which contains another list, and so on.
 
 
  comprehensions
