@@ -25,6 +25,10 @@ An example of how to use it or get it running
  
  `$ git clone https://gitlab.com/book_synopses_and_code_samples/learning_python_5_ed_m_lutz.git`
 
+  or
+
+ `$ git clone https://github.com/ordinary-developer/book_learning_python_5_ed_m_lutz.git'
+
 
 
  
