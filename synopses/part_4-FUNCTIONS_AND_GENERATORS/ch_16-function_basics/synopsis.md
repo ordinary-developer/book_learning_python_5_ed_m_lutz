@@ -29,5 +29,11 @@ Some useful notes about functions in Python:
 - arguments, return values and variables are not declared;
 
    
+'def' statements
+----------------
+
+If the value for a 'return' statement is omitted, 
+'return' sends back a *None*.
+The function without a 'return' statement also returns the None.
 
 
